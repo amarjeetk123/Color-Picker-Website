@@ -1,0 +1,208 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+}
+.input_div{
+    text-align: center;
+   display: flex;
+   justify-content: center;
+   
+}
+.input-containet{
+    margin: 0px auto;
+    position: fixed;
+    top: -12px;
+    /* left: 37%; */
+    padding: 10px 0px 0px;
+    z-index: 10;
+}
+.heading{
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    margin: 10px 0px -18px;
+}
+#copy_btn{
+ width: 90px;
+ height: 40px;
+
+ border: none;
+ border-radius: 10px;
+ font-size: 20px;
+ cursor: pointer;
+ position: absolute;
+ top: 88px;
+ margin-left: -96px;
+ box-shadow: 1px 1px 4px 2px #808080;
+}
+
+#input_box{
+    margin-top: 20px;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 6px;
+    font-size: 20px;
+    outline: none;
+}
+.color_div{
+    padding: 150px 30px 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.box{
+    border-radius: 9px;
+    width: 260px;
+    height: 120px;
+    cursor: pointer;
+    text-align: center;
+    margin: 0px auto;
+}
+.box:hover , #copy_btn:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#one{
+    background-color: #207398;
+}
+#two{
+    background-color: #51E1ED;
+}
+#three{
+    background-color: #383CC1;
+}
+
+#five{
+    background-color:#03203C ;
+}
+#four{
+    background-color:#46B2E0 ;
+}
+
+#six{
+    background-color: #7fff00;
+}
+
+#seven{
+    background-color:#1FAA59 ;
+}
+
+#eight{
+    background-color: #38CC77;
+}
+#nine{
+    background-color: #3DBE29;
+}
+#ten{
+    background-color: #1C8D73;
+}
+
+
+#a11{
+    background-color: #66AD47;
+}
+#a12{
+    background-color:#6AC47E;
+}
+#a13{
+    background-color: #00D84A;
+}
+#a14{
+    background-color: #50DBB4;
+}
+#a15{
+    background-color: #02B290;
+}
+#a16{
+    background-color: #46B2E0;
+}
+#a17{
+    background-color:#3944F7 ;
+}
+#a18{
+    background-color:#5DA3FA ;
+}
+#a19{
+    background-color: #12B0E8;
+}
+#a20{
+    background-color: #120E43;
+}
+
+#y1{
+    background:#E8BD0D ;
+}
+#y2{
+    background:#EDBF69 ;
+}
+#y3{
+    background:#DDD101 ;
+}
+#y4{
+    background:#EDC126 ;
+}
+#y5{
+    background: #F4CE6A;
+}
+#y6{
+    background:#E5D68A ;
+}
+#y7{
+    background:#EDC126 ;
+}
+#y8{
+    background:#A77B06 ;
+}
+#y9{
+    background:#AF9D5A ;
+}
+#y10{
+    background:#D9D55B ;
+}
+
+#o1{
+    background: #8D3DAF;
+}
+#o2{
+    background: #E07C24;
+}
+#o3{
+    background:#5A20CB ;
+}
+#o4{
+    background:#242B2E ;
+}
+#o5{
+    background: #CAD5E2;
+}
+#o6{
+    background:#03C6C7 ;
+}
+#o7{
+    background:#FF6666 ;
+}
+#o8{
+    background:#E03B8B ;
+}
+#o9{
+    background:#758283 ;
+}
+#o10{
+    background:#6A1B4D ;
+}
+
+@media screen and (max-width:450px) {
+    #input_box{
+        width: 350px;
+    }
+}
+@media screen and (max-width:390px) {
+    #input_box{
+        width: 250px;
+    }
+}
